@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    grid-template-rows: 200px 500px 200px;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "left content right"
+    "footer footer footer";
+}
+
+header, .left, .content, .right, footer{
+    border: 1px black solid;
+
+}
+header{
+    grid-area: header;
+}
+
+.left{
+    grid-area: left;
+}
+
+.content{
+    grid-area:content;
+}
+
+.right{
+    grid-area:right;
+}
+
+footer{
+    grid-area:footer;
+}

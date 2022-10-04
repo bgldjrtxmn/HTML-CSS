@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.block{
+    max-width: 700px;
+    min-height: 80px;
+    border: 1px solid rgb(5, 148, 5);
+    background-color: rgb(10, 228, 10);
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+#fz1{
+    font-size: 20px;
+    color: blue;
+    position: relative;
+    left: 50px;
+    top: 15px;
+
+    
+}
+
+#fz2{
+    font-size: 14px;
+    color: rgb(16, 107, 16);
+    position: relative;
+    left: 50px;
+    top: 15px;
+}
+
+.image{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+

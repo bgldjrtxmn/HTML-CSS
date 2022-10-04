@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+nav{
+    width: 100%;
+    background-color: orange;
+}
+
+li{
+    display: inline-block;
+    line-height: 50px;
+}
+
+.input__1{
+    color: rgb(145, 132, 24);
+    background-color: #fff; 
+    border-left: 1px solid peru;
+}
+.input__11{
+    color: orange;
+    font-weight: bold;
+}
+
+.input__2{
+    margin-left: -4px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+nav ul a:hover{
+    background-color: white;
+    color: orange;
+    height: 50px;
+    display: block;
+    width: auto;
+}
+h1, h2 {
+    text-align: center;
+    color: peru;
+    margin-top: 15px;
+}
+
+p{
+    text-indent:10%;
+    color: peru;
+    line-height: 27px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+div a{
+    color: peru;
+}
+
+div{
+    border-bottom:  1px solid peru;
+    border-left: 1px solid peru;
+    border-right: 1px solid peru;
+    padding: 15px;
+}
+
+div a:hover{
+    color: black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+footer ul a  {
+    color: rgb(143, 83, 23);
+    text-decoration: none;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+footer ul a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+

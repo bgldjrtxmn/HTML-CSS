@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: cadetblue;
+}
+
+#cub{
+    position: relative;
+    right: 150px;
+}
+
+#cub1{
+    position: relative;
+    width: 220px;
+    height: 120px;
+    background: red;
+    top: 150px;
+    left: 700px;
+    border: 2px solid black;
+}
+#cub2{
+    position: relative;
+    width: 220px;
+    height: 330px;
+    background: #4da1f7;
+    top: 250px;
+    left: 700px;
+    border: 2px solid black;
+}
+#cub3{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: green;
+    left: 1100px;
+    bottom: 300px;
+    border: 2px solid black;
+}
+#cub4{
+    position: relative;
+    bottom: 200px;
+    left: 1100px;
+    width: 300px;
+    height: 150px;
+    background: yellow;
+    border: 2px solid black;
+}
+
+#cub5{
+    position: relative;
+    border: 3px solid black;
+    width: 800px;
+    height: 700px;
+    bottom: 835px;
+    left: 650px;
+}
+

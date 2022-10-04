@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.square {
+    color: aqua;
+    width: 100%;
+    height: 100vh;
+    background: url(grid_noise.png) no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.square1 {
+    border: 5px solid black;
+    width: 150px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}

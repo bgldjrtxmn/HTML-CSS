@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header1:after {
+    font-family: 'Bodoni Moda', serif;
+    color: red;
+    position: relative; 
+    border-top: 1px solid #dd1818;
+
+}
+

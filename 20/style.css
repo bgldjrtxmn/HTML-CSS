@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: ;
+}
+
+h1{
+   color: red;
+}
+.heart::after {
+    top: 0;
+    left: -100px;
+}    
+.cube{
+    background-color: aqua;
+    max-width: 1000px;
+    height: 600px;
+    text-align: center;
+}
+
+.cube1{
+    width: 50px;
+    height: 400px;
+    background-color: azure;
+    display: inline-block;
+    margin-top: 80px;
+    margin-right: 20px;
+    margin-left: 40px;
+    box-shadow: 0 0 5px;
+   
+}
+.cube2{
+    width: 100px;
+    height: 400px;
+    background-color: azure;
+    display: inline-block;
+    margin-right: 20px;
+    box-shadow: 0 0 5px;
+}
+.cube3{
+    width: 150px;
+    height: 400px;
+    background-color: azure;
+    display: inline-block;
+    margin-right: 20px;
+    box-shadow: 0 0 5px;
+}
+.cube4{
+    width: 200px;
+    height: 400px;
+    background-color: azure;
+    display: inline-block;
+    margin-right: 20px;
+    box-shadow: 0 0 5px;
+}
+.cube5{
+    width: 300px;
+    height: 400px;
+    background-color: azure;
+    display: inline-block;
+    margin-right: 20px;
+    box-shadow: 0 0 5px;
+}

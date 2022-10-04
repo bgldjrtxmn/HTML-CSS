@@ -1,0 +1,19 @@
+*{
+    margin: 20px;
+    padding: 0px;
+}
+
+ul{
+    border-top: 1px dashed #000;
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 800;
+    width: 500px;
+}
+
+
+li:hover{
+    color: white;
+    background-color: red;
+    padding: 3px;
+}

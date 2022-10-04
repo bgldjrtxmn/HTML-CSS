@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: rgb(153, 109, 255);
+    width: 700px;
+    margin: 0 auto;
+    border: 1px solid rgb(58, 12, 167);
+}
+
+ul{
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	
+	padding: 0px; 
+	margin: 0px;
+    
+}
+
+li{
+    list-style: none;
+}
+
+a{    
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    display: block;
+}
+
+.box__3{
+    max-width: 80x;
+}
+
+a:hover{
+    background-color: white;
+    color: rgb(153, 109, 255);
+}
